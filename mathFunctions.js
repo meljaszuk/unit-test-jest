@@ -12,4 +12,4 @@ function getResult(a, b, c, d, e, f) {
   return max ** 2 + min ** 3;
 }
 
-module.exports = { add, mod };
+module.exports = { add, mod, getResult };
