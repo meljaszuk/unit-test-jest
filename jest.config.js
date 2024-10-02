@@ -1,5 +1,7 @@
 // jest.config.js
 module.exports = {
+  testEnvironment: "node", // lub "jsdom", w zależności od twojego projektu
+  setupFiles: ["<rootDir>/jest.setup.js"], // Ścieżka do pliku setup
   reporters: [
     "default",
     [
@@ -12,4 +14,5 @@ module.exports = {
       },
     ],
   ],
+  // inne opcje konfiguracyjne
 };
