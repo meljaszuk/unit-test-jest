@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "Unit tests development",
   "main": "index.js",
+  "homepage": "https://meljaszuk.github.io/unit-test-jest",
   "scripts": {
     "test": "jest",
-    "test:report": "jest --config jest.config.js && open ./test-report.html"
+    "test:report": "jest --config jest.config.js && open ./test-report.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "jest": "^29.7.0",
     "jest-html-reporter": "^3.10.2"
   }
