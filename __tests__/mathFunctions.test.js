@@ -16,3 +16,5 @@ test("function mod: check rest from division 10 by 4 to equal 2", () => {
 test("function getResult(3, -1, 4, 7, 9, 1) [max^2 + min^3] to equal 80", () => {
   expect(getResult(3, -1, 4, 7, 9, 1)).toBe(80);
 });
+
+
