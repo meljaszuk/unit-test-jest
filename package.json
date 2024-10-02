@@ -1,0 +1,17 @@
+{
+  "name": "unit-test-jest",
+  "version": "1.0.0",
+  "description": "Unit tests development",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --config jest.config.js && open ./test-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2"
+  }
+}
